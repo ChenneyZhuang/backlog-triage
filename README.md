@@ -30,6 +30,13 @@ Backlogs fail in two directions: items that were silently abandoned keep resurfa
 
 Rules that do the work: *scheduled means a real date or it is not scheduled*; *waiting means the pending move is named*; *drop is a decision, so it gets a reason and an archive line*.
 
+## Honest limitations / 如实说明局限
+
+- Triage quality is bounded by the honesty of the drop reasons; "drop" with a fake reason is procrastination in costume.
+- Commitment changes still need the user's real approval — the skill drafts, humans decide.
+
+分诊质量取决于放弃理由的诚实度；假理由的"放弃"是穿着马甲的拖延。承诺变更仍需用户真实批准——skill 起草，人拍板。
+
 ## Install / 安装
 
 ```bash
