@@ -10,6 +10,12 @@ Backlogs fail in two directions: items that were silently abandoned keep resurfa
 
 待办清单的两种失败：被默默放弃的事项反复浮现成负罪感；"紧急"等于谁最后催了谁。解法是带理由的分类——每条待办分诊后恰好落到六种命运之一，放弃是显式决策而非意外。
 
+## Scope: personal backlog, not issue-tracker triage / 定位：个人待办，不是 issue 分诊
+
+This skill triages a *personal* backlog (notes, chat pins, inbox flags). Issue-tracker triage for open-source maintenance (states like `needs-triage` / `ready-for-agent`) is a different workflow — see mattpocock's triage skill for that. Complementary, not competing.
+
+这个 skill 分诊的是*个人*待办池（笔记/聊天置顶/收件箱旗标）。开源维护场景的 issue 分诊（needs-triage / ready-for-agent 状态机）是另一套工作流——见 mattpocock 的 triage skill。互补，非竞争。
+
 ## The six dispositions / 六种分类
 
 | Disposition | Meaning |
