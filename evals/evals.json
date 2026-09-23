@@ -1,0 +1,23 @@
+{
+  "skill_name": "backlog-triage",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我这堆任务乱死了，帮我分个优先级，有些其实我也不知道还要不要做",
+      "expected_output": "Tasks triaged into now/next/someday-maybe with a reason each; unclear items land in someday/maybe rather than being forced into yes/no; no fabricated urgency.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Sort my task list before the week starts — everything feels urgent",
+      "expected_output": "A triaged list where the everything-is-urgent pattern is broken by explicit criteria; items triaged twice with different outcomes get flagged as under-specified.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "整理一下我 GitHub 上攒的 issue 和我自己的待办",
+      "expected_output": "Two separate triages (issues vs personal tasks) not mixed, with personal-task items going through this skill's buckets and issue states handled as issue states.",
+      "files": []
+    }
+  ]
+}

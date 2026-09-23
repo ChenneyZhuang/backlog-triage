@@ -17,6 +17,10 @@ metadata:
 
 # Backlog Triage: a list that only grows is not a plan
 
+## When to use
+
+Use when a personal task list has grown unsortable, when everything feels urgent, at weekly review time, or when resuming after a break. For repository issues use issue triage instead; this is for the human's own list.
+
 Turn a backlog into a bounded queue of decisions. Items that were silently
 abandoned resurface as guilt; "urgent" defaults to whoever asked last.
 Dispositions with reasons fix both.
@@ -63,3 +67,9 @@ Dispositions with reasons fix both.
 Every item from every source carries a disposition with a reason, drops are
 archived rather than vanished, commitment changes sit in one approval batch,
 and the resulting queue is small enough to be a plan instead of a wall.
+
+## Gotchas / 常见坑
+
+- This is personal task triage, not GitHub issue triage — a same-named popular skill covers issue states; do not mix the two workflows.
+- Triage without a someday/maybe bucket forces false yes/no decisions and everything becomes urgent.
+- An item that triages differently twice is under-specified — clarify it before re-triaging rather than just picking again.
